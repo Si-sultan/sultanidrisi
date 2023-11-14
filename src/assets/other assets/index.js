@@ -1,0 +1,5 @@
+export { default as navLogo } from './navLogo.png'
+export { default as About } from './about.jpg'
+export { default as Contact } from './contact.jpg'
+export {default as profile} from './profile sultan.jpg'
+export {default as fourty60} from './fourty60-logo.png'

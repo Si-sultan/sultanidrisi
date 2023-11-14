@@ -1,0 +1,13 @@
+export {default as Header} from './Header'
+export {default as BackGroundCircle} from "./BackGroundCircle"
+export {default as HeroSection} from './HeroSection'
+export {default as About} from './About'
+export {default as Experience} from './Experience'
+export {default as ExperienceCard} from './ExperienceCard'
+export {default as Skills} from './Skills'
+export {default as Skill} from './Skill'
+export {default as SeoSkill} from './SeoSkill'
+export {default as ContactUs} from './ContactUs'
+export {default as Projects} from './Project '
+export {default as ProjectCard} from './ProjectCard'
+export {default as CursorPoint} from './CursorPoint'
