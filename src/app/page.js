@@ -3,7 +3,7 @@ import { HeroSection , About , Experience,Skills, ContactUs, Projects , CursorPo
 export default function Home() {
   return (
     <>
-    <div className=' snap-mandatory snap-y z-0 relative'>
+    <div className='snap-mandatory snap-y z-0 relative'>
           <CursorPoint />
           <section  id = "hero" className="snap-start">
             <HeroSection />
