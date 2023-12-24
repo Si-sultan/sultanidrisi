@@ -1,6 +1,16 @@
+'use client'
 import { HeroSection , About , Experience,Skills, ContactUs, Projects , CursorPoint } from '@/components'
+import { useEffect } from 'react';
+import { initializeGoogleTagManager } from './googleTagManager';
 
 export default function Home() {
+  let GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+
+  useEffect(() => {
+    // Initialize Google Tag Manager with your GTM ID
+    initializeGoogleTagManager(GTM_ID);
+  }, []);
+
   return (
     <>
     <div className='snap-mandatory snap-y z-0 relative'>
