@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     // Initialize Google Tag Manager with your GTM ID
-    initializeGoogleTagManager(GTM_ID);
+    initializeGoogleTagManager("GTM-TK3FP9XZ");
   }, []);
 
   return (
