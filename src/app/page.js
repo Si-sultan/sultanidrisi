@@ -10,6 +10,7 @@ export default function Home() {
     // Initialize Google Tag Manager with your GTM ID
     initializeGoogleTagManager(GTM_ID);
   }, []);
+  
 
   return (
     <>
