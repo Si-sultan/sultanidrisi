@@ -8,8 +8,8 @@ import Head from 'next/head';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sultan Idrisi | Portfolio',
-  description: 'Welcome to Sultan Idrisi Portfolio, a passionate developer with a love for all tech things. I have good knowledge in web development and digital marketing.',
+  title: 'Sultan Idrisi | Web & SEO Developer',
+  description: 'Welcome to Sultan Idrisi Portfolio, Experienced Web & SEO Developer. I have good knowledge in web development and digital marketing.',
   icons: {
     icon: '/icon.png', // /public path
   },
