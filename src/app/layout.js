@@ -23,15 +23,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Smartlook tracking Tool Start...*/}
-      <script type='text/javascript'>
+      {/* <script type='text/javascript'>
   window.smartlook||(function(d) {
     var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
     var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
     c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
     })(document);
     smartlook('init', 'd0295adcd7a430ef16bd63344f63fdba3487877f', { region: 'eu' });
-</script>
-        {/* Smartlook tracking Tool End...*/}
+</script> */}
+        {/* Smartlook tracking Tool End... */}
 
           <meta name="google-site-verification" content="qx0XqICRZYUksuAMfswDnNtixRxL-WrjA1KSuPdjdXY" />
       </head>
